@@ -1,0 +1,32 @@
+getgenv().Kitty({
+    ['Preload'] = {
+        ['Whitelist Key'] = "",
+
+        ['FPS Unlocker'] = {
+            ['Enabled'] = true,
+            ['MaxFPS'] = 999,
+        },
+    },
+    ['Universal'] = {
+        ['Notifications'] = true,
+    },
+    ['Auto Parry'] = {
+        ['Enabled'] = true,
+        ['Keybind'] = 'E',
+        ['Parry Method'] = 'Function', -- // Remote, Function
+
+        ['Ping Based Prediction'] = true, -- // Account your ping into the parry time.
+        ['Hit Settings'] = {
+            ['Range'] = 0.5,
+            ['Adjustment'] = 3.8,
+        },
+        ['Curve Adjustment'] = true, -- // Accounts for curve in the ball.
+    },
+    ['Safety'] = {
+        ['Panic'] = {
+            ['Enabled'] = true, 
+            ['Key'] = "V"
+        },
+        ['Kick On Staff Join'] = true,
+    },
+});
